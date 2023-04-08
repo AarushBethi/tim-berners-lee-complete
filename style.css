@@ -1,0 +1,59 @@
+.profile{
+    width: 200px;
+    height: 250px;
+    border-radius: 100px;
+}
+body{
+    text-align: center;
+}
+#welcome{
+
+background: linear-gradient(rgb(207, 118, 118),rgb(127, 127, 213));
+margin: 50px;
+padding: 50px;
+z-index: 9;
+}
+#bio{
+margin-left: 50px;
+margin-right: 50px;
+
+}
+.heading{
+    font-size: 50px;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+.links{
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.links:hover{
+    background-color: aquamarine;
+    font-size: 17px;
+}
+#name{
+    font-family: 'Oswald', sans-serif;
+
+}
+#writings{
+    background-color: beige;
+    padding: 30px;
+}
+#work{
+    background-color: cornflowerblue;
+    padding-bottom: 30px;
+}
+#videos{
+    background-color: chartreuse;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
